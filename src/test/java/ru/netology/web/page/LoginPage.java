@@ -8,10 +8,10 @@ import static com.codeborne.selenide.Selenide.page;
 
 
 public class LoginPage {
-    @FindBy(css ="[data-test-id=login]input")
+    @FindBy(css ="[data-test-id=login] input")
     private static SelenideElement loginField;
 
-    @FindBy (css ="[data-test-id=password]input")
+    @FindBy (css ="[data-test-id=password] input")
     private static SelenideElement passwordField;
     @FindBy(css ="[data-test-id=action-login]")
     private static SelenideElement loginButton;
